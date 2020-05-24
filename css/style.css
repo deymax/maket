@@ -20,6 +20,7 @@ h4 {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    line-height: 1.5;
 }
 
 .knopka p{
@@ -30,7 +31,7 @@ h4 {
     
 }
 section {
-    width: 65%;
+    width: 1050px;
     height: 100%;
     display: flex;
     margin: auto;
@@ -40,8 +41,9 @@ section {
 
 .smoozi, .soop, .yagody {
     position: relative;
+    width: 330px;
+    height: 330px;
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.80));
-    z-index: 2;
 }
 
 h2 {
@@ -100,7 +102,10 @@ h5{
 }
 
 img {
-    z-index: 1;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 
 .knopka:hover {
