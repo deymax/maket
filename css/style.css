@@ -1,0 +1,108 @@
+body {
+    background-color: #b07cf7;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    color: white;
+    font-size: 17px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.knopka p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+section {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+
+.smoozi, .soop, .yagody {
+    position: relative;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.80));
+    z-index: 2;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-left: 13px;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h6 {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+h3{
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+}
+ 
+h5{
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    color: white;
+    font-size: 13px;
+}
+
+.knopka p {
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.date {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    border-radius: 10%;
+    background: rgba(0,0,0, 0.5);
+}
+
+.knopka {
+    background-color: red;
+    width: 15%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    z-index: 1;
+}
+
+.knopka:hover {
+    background-color: blue;
+}
